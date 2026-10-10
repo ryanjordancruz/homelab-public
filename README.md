@@ -42,6 +42,8 @@ A cybersecurity homelab built on a 2015 MacBook Pro running Proxmox VE. Designed
 | 8 | [Nmap Network Scanning](network-analysis/nmap-tutorial.md) | Network Analysis |
 | 9 | [Wireshark Network Analysis](network-analysis/wireshark-packet-analysis.md) | Network Analysis |
 | 10 | [SCA Remediation — Windows Agent](hardening/sca-remediation.md) | Hardening |
+| 11 | [Detection Gap: Nmap Scan Not Visible in Wazuh (Find, Fix, Verify)](detection/detection-gap-nmap-scan.md) | Detection Engineering |
+| 12 | [Alert Triage: Wazuh Rule 60227, External Device Recognized](detection/alert-triage-rule-60227.md) | Alert Triage |
 
 ## Skills Demonstrated
 
@@ -52,6 +54,8 @@ A cybersecurity homelab built on a 2015 MacBook Pro running Proxmox VE. Designed
 - CIS benchmark remediation and Windows endpoint hardening
 - Linux system administration and troubleshooting
 - Documenting security decisions and exceptions with rationale
+- Detection gap analysis: Windows audit policy, agent log collection filters, end-to-end pipeline verification
+- Alert triage, root cause analysis, and MITRE ATT&CK mapping
 
 ## Certifications
 
