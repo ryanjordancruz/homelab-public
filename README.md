@@ -45,6 +45,7 @@ A cybersecurity homelab built on a 2015 MacBook Pro running Proxmox VE. Designed
 | 11 | [Detection Gap: Nmap Scan Not Visible in Wazuh (Find, Fix, Verify)](detection/detection-gap-nmap-scan.md) | Detection Engineering |
 | 12 | [Alert Triage: Wazuh Rule 60227, External Device Recognized](detection/alert-triage-rule-60227.md) | Alert Triage |
 | 13 | [Access Mapping: Find and Fix an Over-Shared Folder (NTFS)](access-control/ntfs-access-mapping-lab.md) | Access Control |
+| 14 | [RBAC + Data Masking: Who Can See the Card Number? (SQL Server)](access-control/sql-rbac-masking-lab.md) | Access Control |
 
 ## Skills Demonstrated
 
@@ -58,6 +59,7 @@ A cybersecurity homelab built on a 2015 MacBook Pro running Proxmox VE. Designed
 - Detection gap analysis: Windows audit policy, agent log collection filters, end-to-end pipeline verification
 - Alert triage, root cause analysis, and MITRE ATT&CK mapping
 - Access mapping and least-privilege remediation: NTFS ACL analysis (icacls, Get-Acl), scripted permission scans
+- Database access control: SQL Server RBAC, permission auditing, Dynamic Data Masking (and its bypass), views as an access boundary
 
 ## Certifications
 
